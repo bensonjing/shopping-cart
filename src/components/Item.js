@@ -3,7 +3,9 @@ export default function Item({ image, title, handleAddToCart }) {
     <div className="item">
       <img src={image} alt={title} />
       <div className="title">{title}</div>
-      <button onClick={() => handleAddToCart(title)}>Add to Cart</button>
+      <button className="addToCart" onClick={() => handleAddToCart(title)}>
+        Add to Cart
+      </button>
     </div>
   );
 }

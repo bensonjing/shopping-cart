@@ -40,3 +40,41 @@
   display: flex; 
   gap: 20px;
 }
+
+/* Shop */
+#shop_board {
+  width: 80%;
+  margin: 40px auto;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%; 
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.addToCart {
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.addToCart:hover {
+  background-color: grey;
+}
+
+.addToCart:active {
+  background-color: white;
+}
