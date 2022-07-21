@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./page/Home";
 import Shop from "./page/Shop";
 import Cart from "./page/Cart";
+import "./App.css";
 
 function App() {
   const [cart, setCart] = useState([]);
